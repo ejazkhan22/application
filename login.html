@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+</head>
+
+    <body class="body">
+
+        <div class="box">
+          <div class="header">
+              <h2>Login Panel</h2>
+          </div>
+        <form  class="form" id="form">
+            <div class="inputBox">
+              <!-- <label>Email</label> -->
+              <input type="text" name="" id="Email" placeholder="Enter your Email">
+              <small>Error Msgs</small>
+          </div>
+          <div class="inputBox">
+              <!-- <label>Password</label> -->
+              <input type="password" name="" id="password" placeholder="Enter your password">
+              <small>Error Msgs</small>
+          </div>
+      <button type="button" onclick = 'login()' class="btn">Login</button>
+      <button type="button" class="btn btn-link"><a href="login.html"><p class="tex_white a" >I HAVE AN ACCOUNT</p></a></button>
+      <button type="button" class="btn btn-link"><a href="login.html"><p class="tex_white a">SIGN IN WITH GOOGLEACCOUNT</p></a></button>
+        </form> 
+        <script src="app.js"></script>
+      </body>
+
+</html>
